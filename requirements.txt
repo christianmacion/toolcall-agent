@@ -1,0 +1,5 @@
+# The offline path (agent loop, tools, tracing, fault-injection, eval scorer)
+# is PURE Python stdlib — it needs nothing here. These are only for the
+# Streamlit UI and (optional) live mode.
+streamlit>=1.30
+anthropic>=0.40   # live mode only; lazy-imported, gated on ANTHROPIC_API_KEY

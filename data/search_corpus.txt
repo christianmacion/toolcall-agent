@@ -1,0 +1,16 @@
+Acme Robotics was founded in 2019 and is headquartered in Austin, Texas.
+The flagship product is the Acme Picker, a warehouse pick-and-place robotic arm.
+The Acme Picker has a reach of 1.2 meters and a payload capacity of 5 kilograms.
+The Acme Scout is an autonomous floor-scanning robot for inventory counting.
+Acme Robotics offers a 30-day money-back refund policy on all hardware.
+The standard warranty covers parts and labor for 24 months from purchase.
+Enterprise customers receive priority support with a 4-hour response SLA.
+The support hotline operates 24 hours a day, 7 days a week, worldwide.
+Jane Okafor is the Chief Executive Officer of Acme Robotics.
+Raj Patel is the Chief Technology Officer and leads the hardware team.
+The Acme cloud dashboard bills at 49 dollars per robot per month.
+Firmware updates ship on the first Tuesday of every month.
+The return shipping address is 100 Industrial Way, Austin, Texas 78701.
+Acme Robotics is hiring embedded engineers and field-service technicians.
+The Picker draws a maximum of 240 watts under full load.
+All Acme robots communicate over an encrypted MQTT control channel.

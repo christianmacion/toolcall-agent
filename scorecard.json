@@ -1,0 +1,212 @@
+{
+  "n_tasks": 20,
+  "tool_correctness": 1.0,
+  "argument_correctness": 1.0,
+  "task_completion_rate": 1.0,
+  "error_recovery_rate": 1.0,
+  "injected_failures": 6,
+  "recovered_failures": 6,
+  "avg_steps_to_completion": 1.2,
+  "rows": [
+    {
+      "id": "t01_calc_basic",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "84"
+    },
+    {
+      "id": "t02_calc_words",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "63"
+    },
+    {
+      "id": "t03_calc_div",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "12"
+    },
+    {
+      "id": "t04_calc_pct",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "270"
+    },
+    {
+      "id": "t05_conv_m_ft",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "9.84252 feet"
+    },
+    {
+      "id": "t06_conv_kg_lb",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "11.023113 pounds"
+    },
+    {
+      "id": "t07_conv_temp",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "212 fahrenheit"
+    },
+    {
+      "id": "t08_conv_km_mi",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "6.213712 miles"
+    },
+    {
+      "id": "t09_search_ceo",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "Jane Okafor is the Chief Executive Officer of Acme Robotics."
+    },
+    {
+      "id": "t10_search_refund",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "Acme Robotics offers a 30-day money-back refund policy on all hardware."
+    },
+    {
+      "id": "t11_search_warranty",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "The standard warranty covers parts and labor for 24 months from purchase."
+    },
+    {
+      "id": "t12_search_address",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "The return shipping address is 100 Industrial Way, Austin, Texas 78701."
+    },
+    {
+      "id": "t13_search_dashboard",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "The Acme cloud dashboard bills at 49 dollars per robot per month."
+    },
+    {
+      "id": "t14_search_firmware",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "Firmware updates ship on the first Tuesday of every month."
+    },
+    {
+      "id": "t15_now",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "2026-06-23T12:00:00"
+    },
+    {
+      "id": "t16_calc_inject",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 1,
+      "recovered": 1,
+      "answer": "56"
+    },
+    {
+      "id": "t17_conv_inject",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 1,
+      "recovered": 1,
+      "answer": "3218.688 meters"
+    },
+    {
+      "id": "t18_search_inject",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 1,
+      "injected": 1,
+      "recovered": 1,
+      "answer": "Raj Patel is the Chief Technology Officer and leads the hardware team."
+    },
+    {
+      "id": "t19_multistep",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 3,
+      "injected": 0,
+      "recovered": 0,
+      "answer": "5.937008 feet"
+    },
+    {
+      "id": "t20_multistep_inject",
+      "tools_ok": true,
+      "args_ok": true,
+      "answer_ok": true,
+      "steps": 3,
+      "injected": 3,
+      "recovered": 3,
+      "answer": "5.937008 feet"
+    }
+  ]
+}
